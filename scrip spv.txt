@@ -1,0 +1,608 @@
+#################### SOPORTE PROACTIVO VAL ####################
+
+ssh root@10.88.14.16
+
+#################### OMMVAL01 ####################
+
+0MMV4LR00t
+
+#_______________ Validacion de conexiones hacia las ip del SASN _______________
+
+netstat -an grep 3870
+
+#_______________ Validacion de conexiones hacia los peers de ORGA _______________
+
+netstat -an grep '10201\|10202'
+
+#_______________ Validacion de conexión hacia los NTP Server _______________
+
+ping 10.44.109.26 -c5 | tail -2
+
+ping  10.44.100.156 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.136 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.139 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.140 -c5 | tail -2
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+uptime
+
+#_______________ Memoria _______________
+free -g 
+
+#_______________ CPU _______________
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Estatus de los servers _______________
+
+hastatus -sum
+
+#################### Fin OMMVAL01 ####################
+
+exit
+
+ssh root@10.88.14.17 2
+
+0MMV4LR00t
+
+#################### OMMVAL02 ####################
+
+
+#_______________ Validacion de conexiones hacia las ip del SASN _______________
+
+netstat -an | grep 3870
+
+#_______________ Validacion de conexiones hacia los peers de ORGA _______________
+
+netstat -an | grep '10201\|10202'
+
+#_______________ Validacion de conexión hacia los NTP Server _______________
+
+ping 10.44.109.26 -c5 | tail -2
+
+ping  10.44.100.156 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.136 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.139 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.140 -c5 | tail -2
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+uptime
+
+#_______________ Memoria _______________
+free -g 
+
+#_______________ CPU _______________
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Estatus de los servers _______________
+
+hastatus -sum
+
+#################### Fin OMMVAL02 ####################
+
+ssh root@10.88.14.18 2
+0mMd1GVAL412
+
+#################### OMMVAL03 ####################
+
+#_______________ Validacion de conexiones hacia las ip del SASN _______________
+
+netstat -an | grep 3870
+
+#_______________ Validacion de conexiones hacia los peers de ORGA _______________
+
+netstat -an | grep '10201\|10202'
+
+#_______________ Validacion de conexión hacia los NTP Server _______________
+
+ping 10.44.109.26 -c5 | tail -2
+
+ping  10.44.100.156 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.136 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.139 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.140 -c5 | tail -2
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+uptime
+
+#_______________ Memoria _______________
+free -g 
+
+#_______________ CPU _______________
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Estatus de los servers _______________
+
+hastatus -sum
+
+#################### Fin OMMVAL03 ####################
+
+ssh root@10.88.14.19
+0mMd1GVAL412
+
+#################### OMMVAL04 ####################
+
+#_______________ Validacion de conexiones hacia las ip del SASN _______________
+
+netstat -an | grep 3870
+
+#_______________ Validacion de conexiones hacia los peers de ORGA _______________
+
+netstat -an | grep '10201\|10202'
+
+#_______________ Validacion de conexión hacia los NTP Server _______________
+
+ping 10.44.109.26 -c5 | tail -2
+
+ping  10.44.100.156 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.136 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.139 -c5 | tail -2
+
+#_______________ Validacion de conexión hacia los OSS  _______________
+
+ping 10.193.236.140 -c5 | tail -2
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+uptime
+
+#_______________ Memoria _______________
+free -g 
+
+#_______________ CPU _______________
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Estatus de los servers _______________
+
+hastatus -sum
+
+#################### Fin OMMVAL04 ####################
+
+ssh root@10.88.16.37
+DiIgiPtelWGVAL
+
+#################### iDNSVAL02 ####################
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+
+uptime
+
+#_______________ Memoria _______________
+free -g
+
+#_______________ CPU _______________
+
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Interfaz O&M _______________
+
+ifconfig bond0
+
+#_______________ Interfaz Trafico _______________
+ifconfig bond1
+
+#_______________ Ping al SGSN 03 a traves de la Gn _______________
+ping 200.71.247.134 -c5 | tail -2
+
+#_______________ Ping al SGSN 04 a traves de la Gn _______________
+ping 200.71.247.165 -c5 | tail -2
+
+#_______________ Ping al SGSN 05 a traves de la Gn  _______________
+ping 200.71.247.205 -c5 | tail -2
+
+#_______________ Ping al SGSN 06 a traves de la Gn  _______________
+ping 200.71.247.161 -c5 | tail -2
+
+#_______________ Ping al SGSN 07 a traves de la Gn  _______________
+ping 200.71.242.177 -c5 | tail -2
+
+#_______________ Ping al SGSN 08 a traves de la Gn  _______________
+ping 200.71.242.180 -c5 | tail -2
+
+#_______________ Ping al SGSN 09 a traves de la Gn  _______________
+ping 200.71.242.183 -c5 | tail -2
+
+#_______________ IPWCLI _______________
+
+ipwcli
+admin
+wpp_Adm1n
+list dnsservers
+list aaaservers
+show status dnsserver
+exit
+#################### Fin iDNSVAL02 ####################
+
+ssh 10.88.16.36
+DiIgiPtelWGVAL
+
+#################### iDNSVAL01 ####################
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+
+uptime
+
+#_______________ Memoria _______________
+free -g
+
+#_______________ CPU _______________
+
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Interfaz O&M _______________
+
+ifconfig bond0
+
+#_______________ Interfaz Trafico _______________
+ifconfig bond1
+
+#_______________ Ping al SGSN 03 a traves de la Gn _______________
+ping 200.71.247.134 -c5 | tail -2
+
+#_______________ Ping al SGSN 04 a traves de la Gn _______________
+ping 200.71.247.165 -c5 | tail -2
+
+#_______________ Ping al SGSN 05 a traves de la Gn  _______________
+ping 200.71.247.205 -c5 | tail -2
+
+#_______________ Ping al SGSN 06 a traves de la Gn  _______________
+ping 200.71.247.161 -c5 | tail -2
+
+#_______________ Ping al SGSN 07 a traves de la Gn  _______________
+ping 200.71.242.177 -c5 | tail -2
+
+#_______________ Ping al SGSN 08 a traves de la Gn  _______________
+ping 200.71.242.180 -c5 | tail -2
+
+#_______________ Ping al SGSN 09 a traves de la Gn  _______________
+ping 200.71.242.183 -c5 | tail -2
+
+#################### Fin iDNSVAL01 ####################
+
+ssh 10.88.16.20
+DiIgiPtelWGVAL
+
+#################### eDNSVAL01 ####################
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+
+uptime
+
+#_______________ Memoria _______________
+free -g
+
+#_______________ CPU _______________
+
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Interfaz O&M _______________
+
+ifconfig bond0
+
+#_______________ Interfaz Trafico _______________
+ifconfig bond1
+
+#_______________ Ping al SGSN 03 a traves de la Gn _______________
+ping 200.71.247.134 -c5 | tail -2
+
+#_______________ Ping al SGSN 04 a traves de la Gn _______________
+ping 200.71.247.165 -c5 | tail -2
+
+#_______________ Ping al SGSN 05 a traves de la Gn  _______________
+ping 200.71.247.205 -c5 | tail -2
+
+#_______________ Ping al SGSN 06 a traves de la Gn  _______________
+ping 200.71.247.161 -c5 | tail -2
+
+#_______________ Ping al SGSN 07 a traves de la Gn  _______________
+ping 200.71.242.177 -c5 | tail -2
+
+#_______________ Ping al SGSN 08 a traves de la Gn  _______________
+ping 200.71.242.180 -c5 | tail -2
+
+#_______________ Ping al SGSN 09 a traves de la Gn  _______________
+ping 200.71.242.183 -c5 | tail -2
+
+#################### Fin eDNSVAL01 ####################
+
+ssh root@10.88.16.21
+DiIgiPtelWGVAL
+#################### eDNSVAL02 ####################
+
+
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+
+uptime
+
+#_______________ Memoria _______________
+free -g
+
+#_______________ CPU _______________
+
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Interfaz O&M _______________
+
+ifconfig bond0
+
+#_______________ Interfaz Trafico _______________
+ifconfig bond1
+
+#_______________ Ping al SGSN 03 a traves de la Gn _______________
+ping 200.71.247.134 -c5 | tail -2
+
+#_______________ Ping al SGSN 04 a traves de la Gn _______________
+ping 200.71.247.165 -c5 | tail -2
+
+#_______________ Ping al SGSN 05 a traves de la Gn  _______________
+ping 200.71.247.205 -c5 | tail -2
+
+#_______________ Ping al SGSN 06 a traves de la Gn  _______________
+ping 200.71.247.161 -c5 | tail -2
+
+#_______________ Ping al SGSN 07 a traves de la Gn  _______________
+ping 200.71.242.177 -c5 | tail -2
+
+#_______________ Ping al SGSN 08 a traves de la Gn  _______________
+ping 200.71.242.180 -c5 | tail -2
+
+#_______________ Ping al SGSN 09 a traves de la Gn  _______________
+ping 200.71.242.183 -c5 | tail -2
+
+#################### FineDNSVAL02 ####################
+
+ssh root@10.88.16.43
+
+DiIgiPtelWGVAL
+
+#################### AAAVAL01 ####################
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+uptime
+
+#_______________ Memoria _______________
+free -g
+
+#_______________ CPU _______________
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Interfaz O&M _______________
+ifconfig bond0
+
+#_______________ Interfaz Trafico _______________
+ifconfig bond1
+
+#_______________ Ping al EPG _______________
+ping 10.91.8.65 -c5 | tail -2
+
+#_______________ Ping al EPG _______________
+ping 10.91.8.66 -c5 | tail -2
+
+#################### Fin AAAVAL01 ####################
+
+ssh root@10.88.16.44
+DiIgiPtelWGVAL
+
+#################### AAAVAL02 ####################
+
+#_______________ Fecha y Hora _______________
+date
+
+#_______________ Dias activo _______________
+uptime
+
+#_______________ Memoria _______________
+free -g
+
+#_______________ CPU _______________
+top -b -n1 | head -n 5
+
+#_______________ Servers NTP _______________
+ntpq -p
+
+#_______________ Filesystem _______________
+df -h
+
+#_______________ Interfaz O&M _______________
+ifconfig bond0
+
+#_______________ Interfaz Trafico _______________
+ifconfig bond1
+
+#_______________ Ping al EPG _______________
+ping 10.91.8.65 -c5 | tail -2
+
+#_______________ Ping al EPG _______________
+ping 10.91.8.66 -c5 | tail -2
+
+#################### SWCOREVAL01 ####################
+
+#_______________ CPU _______________
+
+show system uptime
+
+#_______________ FileSystems _______________
+show system storage | except packages/ 
+
+#_______________ Estatus Físico _______________
+
+show chassis environment | except OK
+
+#_______________ Estatus Interfaces _______________
+show interfaces descriptions 
+
+#_______________ Estatus alertas del sistema _______________
+
+show system alarms | except
+
+#_______________ LOGS _______________
+
+shwo log messages 
+
+#_______________ Fin SWCOREVAL01 _______________
+
+ssh epguser@10.54.2.106
+3r1c5s0nEp
+
+#################### EPGVAL ####################
+
+
+_______________ FileSystems _______________
+show disk
+
+_______________ Estatus Físico _______________
+
+show hardware thermal | exclude Normal
+
+_______________ Estadisticas de la interface _______________
+
+show ip interface
+
+_______________ Estadisticas de la interface _______________
+show card
+
+_______________ Status de los puertos _______________
+
+show port
+
+#################### Fin EPGVAL ####################
+
+ssh sasnuser@10.54.0.65
+D1g1t3Lc4U1d2
+
+!#################### SASNVAL ####################
+
+!_______________ FileSystems _______________
+show disk
+
+_______________ Estatus Físico _______________
+
+show hardware thermal | exclude Normal
+
+_______________ Estadisticas de la interface _______________
+
+show ip interface
+
+_______________ Estadisticas de la interface _______________
+
+show card
+
+_______________ Status de los puertos _______________
+show port
